@@ -1,0 +1,139 @@
+{
+    "type": "Screen",
+    "translatedName": "Screen",
+    "reactType": "ViewWithProps",
+    "properties": {
+        "Height": "Fill container",
+        "Width": "Fill container",
+        "Layout": "column",
+        "BackgroundColor": "rgba(57, 131, 120, 1)",
+        "Justification": "center",
+        "Alignment": "center",
+        "Visible": true,
+        "style": {
+            "marginTop": 0,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "shadowColor": "rgba(0, 0, 0, 0)",
+            "shadowOpacity": 0,
+            "scaledShadowOpacity": 0,
+            "shadowRadius": 0,
+            "shadowOffset": {
+                "width": 0,
+                "height": 0
+            },
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "display": "flex",
+            "backgroundColor": "rgba(57, 131, 120, 1)"
+        },
+        "ShowStatusBar": true,
+        "StatusBarStyle": "default",
+        "TranslucentStatusBar": false,
+        "StatusBarColor": "rgba(0,0,0,0.53)",
+        "TabNavigationOptions": {
+            "tabBarVisible": true
+        },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
+        "ScreenOrientation": "portrait",
+        "DesignerHeight": 667,
+        "DesignerWidth": 375,
+        "ResponsiveWidth": 375,
+        "isSimple": true,
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
+    },
+    "children": [
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "jaygram-high-resolution-logo-color-on-transparent-background.png",
+                "resizeMode": "contain",
+                "Height": 102,
+                "Width": 254,
+                "Visible": true,
+                "X": 61,
+                "Y": 255,
+                "RelativeX": 61,
+                "RelativeY": 255,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "35.86666666666667%",
+                    "top": "55.29188530734633%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "f5dad48e-ccac-4a55-9ddd-b566f198522d",
+                "position": "absolute",
+                "edgeOffsets": 255.99999999999994
+            },
+            "children": [],
+            "id": "53d966b6-f8fd-4769-832f-381282b8f0d1",
+            "thunkableVersion": 422,
+            "name": "Logo_image"
+        },
+        {
+            "type": "Lottie",
+            "label": "Animation",
+            "translatedName": "Animation",
+            "properties": {
+                "Animation": "animation_lmw7v65b.json",
+                "Loop": true,
+                "Height": 171,
+                "Width": 192,
+                "Visible": true,
+                "X": 101,
+                "Y": 111,
+                "RelativeX": 101,
+                "RelativeY": 111,
+                "ResizeMode": "STRETCH",
+                "ParentId": "f5dad48e-ccac-4a55-9ddd-b566f198522d",
+                "position": "absolute",
+                "edgeOffsets": 111,
+                "style": {
+                    "position": "absolute",
+                    "left": "37.733333333333334%",
+                    "top": "34.7685532233883%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "dfd6d47a-31b1-4bfe-bc43-5ced4d03d7e6",
+            "thunkableVersion": 422,
+            "name": "Animation1"
+        }
+    ],
+    "id": "f5dad48e-ccac-4a55-9ddd-b566f198522d",
+    "thunkableVersion": 422,
+    "name": "LaunchSeen"
+}
